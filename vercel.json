@@ -1,20 +1,20 @@
 {
   "functions": {
-    "index.php": {
+    "api/index.php": {
       "runtime": "vercel-php@0.5.0"
     },
-    "uploader.php": {
+    "api/uploader.php": {
       "runtime": "vercel-php@0.5.0"
     }
   },
   "rewrites": [
     {
       "source": "/",
-      "destination": "/index.php"
+      "destination": "/api/index.php"
     },
     {
       "source": "/uploader",
-      "destination": "/uploader.php"
+      "destination": "/api/uploader.php"
     }
   ]
 }
