@@ -1,1 +1,4 @@
-
+# Abaikan semua file unggahan pengguna
+/uploads/*
+# Kecualikan file placeholder agar foldernya tetap terlacakk
+!/uploads/.gitkeep
