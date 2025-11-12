@@ -1,0 +1,13 @@
+{
+  "functions": {
+    "uploader.php": {
+      "runtime": "@vercel/php"
+    }
+  },
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/uploader.php"
+    }
+  ]
+}
