@@ -1,10 +1,10 @@
 {
   "functions": {
     "index.php": {
-      "runtime": "@vercel/php"
+      "runtime": "vercel-php@0.5.0"
     },
     "uploader.php": {
-      "runtime": "@vercel/php"
+      "runtime": "vercel-php@0.5.0"
     }
   },
   "rewrites": [
