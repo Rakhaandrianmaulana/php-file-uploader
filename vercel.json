@@ -1,4 +1,14 @@
 {
+  "builds": [
+    {
+      "src": "uploader.php",
+      "use": "@vercel/php"
+    },
+    {
+      "src": "index.php",
+      "use": "@vercel/php"
+    }
+  ],
   "functions": {
     "index.php": {
       "runtime": "@vercel/php"
