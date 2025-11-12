@@ -1,13 +1,20 @@
 {
   "functions": {
+    "index.php": {
+      "runtime": "@vercel/php"
+    },
     "uploader.php": {
       "runtime": "@vercel/php"
     }
   },
-  "routes": [
+  "rewrites": [
     {
-      "src": "/(.*)",
-      "dest": "/uploader.php"
+      "source": "/",
+      "destination": "/index.php"
+    },
+    {
+      "source": "/uploader",
+      "destination": "/uploader.php"
     }
   ]
 }
